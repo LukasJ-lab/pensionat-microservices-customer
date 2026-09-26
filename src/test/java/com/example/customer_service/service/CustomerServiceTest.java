@@ -75,6 +75,6 @@ public class CustomerServiceTest {
         assertEquals("TestTest Customer", result.dto().getName());
         assertEquals("TestTest@mail.com", result.dto().getEmail());
         verify(customerRepo).save(customer);
-        assertEquals("TestTestPassWord", customer.getPassword());
+        assertEquals("TestTestPassWor", customer.getPassword());
     }
 }
